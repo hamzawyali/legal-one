@@ -2,10 +2,11 @@
 
 namespace App\Service;
 
+use App\Contract\QueryFiltersServiceInterface;
 use Doctrine\ORM\QueryBuilder;
 use Symfony\Component\HttpFoundation\Request;
 
-class QueryFiltersService
+class QueryFiltersService implements QueryFiltersServiceInterface
 {
     protected QueryBuilder $queryBuilder;
 
