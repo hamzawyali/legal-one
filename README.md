@@ -1,6 +1,7 @@
 ## About Project
 
-This is a small project that aims to insert logs file with huge amount of data int DB. 
+This is a small project that aims to insert logs file with huge amount of data int DB.
+- This app using PHP 8 with Symfony 7.0.7 framework
 - This app depends on queue worker to insert data
 - This app using Docker
 
